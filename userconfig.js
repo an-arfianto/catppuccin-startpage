@@ -24,13 +24,13 @@ const default_config = {
             {
               name: "localhost php",
               url: "http://localhost/phpdev",
-              icon: "droplet-bolt",
+              icon: "brand-php",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "phpmyadmin",
+              url: "http://localhost/phpmyadmin",
+              icon: "database",
               icon_color: palette.peach,
             },
           ],
@@ -99,13 +99,13 @@ const default_config = {
             {
               name: "claude",
               url: "https://claude.ai",
-              icon: "ai",
+              icon: "robot-face",
               icon_color: palette.peach,
             },
             {
               name: "chatgpt",
               url: "https://chatgpt.com",
-              icon: "ai",
+              icon: "robot-face",
               icon_color: palette.text,
             },
           ],
