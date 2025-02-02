@@ -68,7 +68,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-07.gif",
+      background_url: "src/img/banners/cbg-06.gif",
       categories: [
         {
           name: "development",
@@ -99,13 +99,13 @@ const default_config = {
             {
               name: "claude",
               url: "https://claude.ai",
-              icon: "robot-face",
+              icon: "brain",
               icon_color: palette.peach,
             },
             {
               name: "chatgpt",
               url: "https://chatgpt.com",
-              icon: "robot-face",
+              icon: "brain",
               icon_color: palette.text,
             },
           ],
@@ -113,8 +113,8 @@ const default_config = {
       ],
     },
     {
-      name: "chill",
-      background_url: "src/img/banners/cbg-08.gif",
+      name: "chi ll",
+      background_url: "src/img/banners/cbg-03.gif",
       categories: [
         {
           name: "social media",
@@ -134,7 +134,7 @@ const default_config = {
             {
               name: "whatsapp",
               url: "https://web.whatsapp.com",
-              icon: "brand-reddit",
+              icon: "brand-whatsapp",
               icon_color: palette.red,
             },
           ],
