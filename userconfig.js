@@ -12,7 +12,6 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -23,8 +22,8 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
+              name: "localhost php",
+              url: "http://localhost/phpdev",
               icon: "droplet-bolt",
               icon_color: palette.green,
             },
@@ -81,23 +80,40 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
-            },
-            {
               name: "stackoverflow",
               url: "https://stackoverflow.com",
               icon: "brand-stackoverflow",
               icon_color: palette.red,
+            },
+            {
+              name: "vercel",
+              url: "https://vercel.com",
+              icon: "brand-vercel",
+              icon_color: palette.text,
+            },
+          ],
+        },
+        {
+          name: "AI Stuff",
+          links: [
+            {
+              name: "claude",
+              url: "https://claude.ai",
+              icon: "ai",
+              icon_color: palette.peach,
+            },
+            {
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "ai",
+              icon_color: palette.text,
             },
           ],
         },
       ],
     },
     {
-      name: "chi ll",
+      name: "chill",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
@@ -117,7 +133,7 @@ const default_config = {
             },
             {
               name: "whatsapp",
-              url: "https://web.whatsapp.com/",
+              url: "https://web.whatsapp.com",
               icon: "brand-reddit",
               icon_color: palette.red,
             },
